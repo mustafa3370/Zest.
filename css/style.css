@@ -1,0 +1,142 @@
+* {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+.logo {
+  color: #1138e8;
+  font-size: 25px;
+  padding-left: 20px;
+}
+.Home {
+  background-color: #eeeeee;
+  height: 100vh;
+  align-items: center;
+  width: 100%;
+}
+.font-b {
+  font-size: 70px;
+}
+.Home b {
+  font-size: 25px;
+  color: brown;
+}
+
+.image img:hover {
+  animation: shake 1s infinite;
+}
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+.about span {
+  color: brown;
+}
+.title::after {
+  content: "";
+  position: absolute;
+  left: 45%;
+  background-color: brown;
+  width: 10%;
+  height: 2px;
+}
+.about-contant b{
+    font-weight: 200; font-size: 30px;
+ 
+}
+.about-img img{
+  border-radius: 20px;
+  
+}
+.about{
+  margin-bottom: 80px;
+}
+.Courses{
+  padding-top: 30px;
+  background-color: #eeeeee;
+}
+
+.card .icon {
+  font-size: 30px;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  line-height: 45px;
+  background: #f4f4f4;
+  border-radius: 50%;
+ 
+  transition: all 1s;
+}
+.padding-card {
+  padding: 35px 20px;
+}
+.card:hover .icon {
+  color: white;
+  background: black;
+}
+.w-20{
+  width: 19.5%;
+}
+.w-40{
+  width: 42%;
+}
+
+.item .icon {
+  font-size: 25px;
+  margin-bottom: 15px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background: #f4f4f4;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+.contact .form input[type="text"], .contact .form input[type="email"], .contact .form textarea {
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  background: #f4f4f4;
+}
+.m-10{
+  margin-left: 10%;
+}
+.footer{
+  color: #eeeeee;
+  margin-top: 20px;
+}
